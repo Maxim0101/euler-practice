@@ -35,6 +35,7 @@ def find_smallest_multiple(rangeNum):
 # print("ANSWER " + str(find_smallest_multiple(20))) # 232792560
 
 
+
 # CHATGPT'S OPTIMIZED VERSION
 from math import gcd
 from functools import reduce
