@@ -7,7 +7,9 @@
 
 
 # WHAT I LEARNED
-# 
+# - I learned that a much cleaner way to check if a number is a multiple is to use a modulus operator
+# - How to compare values between two lists and avoid duplicates
+# - That removing items from a list while iterating over it can lead to unexpected behavior
 
 
 
