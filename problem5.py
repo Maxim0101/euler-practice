@@ -8,7 +8,11 @@
 
 
 # WHAT I LEARNED
-# 
+# - How to check if a number is divisible by a range of values using loops and modulus
+# - That brute force solutions work but become slow at larger scales
+# - How to use the least common multiple (LCM) to find the smallest number divisible by multiple values
+# - That LCM(a, b) = (a * b) // GCD(a, b) and how to use Python’s math.gcd()
+# - How to use the functools.reduce() function to apply an operation (like LCM) across a range
 
 
 

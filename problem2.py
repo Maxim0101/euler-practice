@@ -10,7 +10,11 @@
 
 
 # WHAT I LEARNED
-# 
+# - How to generate the Fibonacci sequence using a while loop and multiple tracking variables
+# - How to sum selected values from a sequence
+# - How to store and process data using lists
+# - That using fewer variables and skipping list storage (like in the optimized version) can improve memory usage and performance
+# - The importance of clearly updating multiple variables when generating sequences
 
 
 

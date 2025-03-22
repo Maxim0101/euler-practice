@@ -7,7 +7,12 @@
 
 
 # WHAT I LEARNED
-# 
+# - How to use string reversal and indexing to check if a number is a palindrome
+# - How to work with digit-based limits by dynamically constructing numbers like 999, 9999, etc.
+# - How nested loops can generate all pairwise products efficiently
+# - How to keep track of the largest value conditionally during iteration
+# - That breaking out of a loop early can improve performance once further results are guaranteed to be smaller
+# - That Python has powerful built-in string operations like [::-1] for quick checks and cleaner code which I forgot about
 
 
 

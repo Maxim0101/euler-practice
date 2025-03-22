@@ -6,7 +6,12 @@
 
 
 # WHAT I LEARNED
-# 
+# - How to find the largest prime factor of a number through repeated division
+# - That prime factorization involves checking divisibility from smallest primes upward
+# - How to implement both iterative and recursive solutions to a problem
+# - That checking up to the square root of a number is more efficient than up to n/2 or n
+# - How to manage while loop conditions and update multiple variables
+# - That optimizing math logic can significantly improve performance on large numbers
 
 
 
