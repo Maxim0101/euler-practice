@@ -41,24 +41,3 @@ def sum_even_fibonacci_numbers(highest_value):
 
 print(sum_even_fibonacci_numbers(100)) #44
 print(sum_even_fibonacci_numbers(4000000)) #4613732
-
-
-
-# CHATGPT'S OPTIMIZED VERSION
-def GPTsum_even_fibonacci_numbers(highest_value):
-    first = 1
-    second = 2
-    evens_sum = 0
-    
-    while second < highest_value:
-        if second % 2 == 0:
-            evens_sum += second
-        # Generate the next Fibonacci number
-        next_fib = first + second
-        first = second
-        second = next_fib
-    
-    return evens_sum
-
-print(GPTsum_even_fibonacci_numbers(100))      # Output: 44
-print(GPTsum_even_fibonacci_numbers(4000000))  # Output: 4613732

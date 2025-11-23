@@ -55,28 +55,3 @@ def is_palindrome(product):
 print(find_largest_number_palindrome(2)) #9009
 print(find_largest_number_palindrome(3)) #906609
 # print(find_largest_number_palindrome(4)) #99000099
-
-
-
-# CHATGPT'S OPTIMIZED VERSION
-def GPTfind_largest_number_palindrome(digit_length):
-    # Create the largest and smallest numbers with the given digit length
-    highest_number = int("9" * digit_length)
-    lowest_number = 10 ** (digit_length - 1)
-
-    largest_palindrome = 0
-
-    # Loop downwards to maximize early largest palindrome detection
-    for num1 in range(highest_number, lowest_number - 1, -1):
-        for num2 in range(num1, lowest_number - 1, -1):  # Start num2 from num1 to avoid duplicate pairs
-            product = num1 * num2
-            if product <= largest_palindrome:
-                break  # No need to check further; products will only get smaller
-            if is_palindrome(product):
-                largest_palindrome = product
-
-    return largest_palindrome
-
-# Optimized palindrome check
-def GPTis_palindrome(number):
-    return str(number) == str(number)[::-1]  # Simple and efficient

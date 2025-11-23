@@ -33,18 +33,3 @@ def find_smallest_multiple(rangeNum):
 
 # print("ANSWER " + str(find_smallest_multiple(10))) # 2520
 # print("ANSWER " + str(find_smallest_multiple(20))) # 232792560
-
-
-
-# CHATGPT'S OPTIMIZED VERSION
-from math import gcd
-from functools import reduce
-
-def lcm(a, b):
-    return (a * b) // gcd(a, b)
-
-def GPTfind_smallest_multiple(n):
-    return reduce(lcm, range(1, n + 1))
-
-print("ANSWER:", GPTfind_smallest_multiple(10)) # 2520
-print("ANSWER:", GPTfind_smallest_multiple(20)) # 232792560
